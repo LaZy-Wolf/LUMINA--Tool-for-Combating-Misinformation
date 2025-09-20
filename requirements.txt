@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+requests
+beautifulsoup4
+pillow
+langchain-groq
+langchain-community
+langchain-core
+mistralai
+google-generativeai

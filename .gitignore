@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# FastAPI / Uvicorn / Cache
+*.pid
+*.cache/
+*.coverage
+*.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ---- Node / Frontend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build Outputs
+dist/
+build/
+.next/
+out/
+.cache/
+coverage/
+
+# ---- Environment & Config ----
+.env
+.env.local
+.env.*.local
+*.env
+
+# ---- OS / Editor files ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
