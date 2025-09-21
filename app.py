@@ -53,8 +53,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 search = TavilySearchAPIWrapper()
 llm = ChatGroq(api_key=GROQ_API_KEY, temperature=0, model="gemma2-9b-it")
 mistral_client = Mistral(api_key=MISTRAL_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-2.5-flash")  # Updated to valid model; adjust if 2.5 exists in 2025
-
+gemini_model = genai.GenerativeModel("gemini-2.5-flash")  
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
