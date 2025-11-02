@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+requests
+beautifulsoup4
+pillow
+langchain-groq
+langchain-community
+langchain-core
+mistralai
+python-multipart==0.0.9
+python-multipart==0.0.9
+google-generativeai
